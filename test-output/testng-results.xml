@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-13T16:49:51 IST" name="API-Telecom-Domain Suite" finished-at="2026-07-13T16:50:19 IST" duration-ms="27523">
+    <groups>
+    </groups>
+    <test started-at="2026-07-13T16:49:51 IST" name="User API" finished-at="2026-07-13T16:50:03 IST" duration-ms="12091">
+      <class name="com.tests.UserAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.UserAPITest@7b98f307]" started-at="2026-07-13T16:49:51 IST" name="setup" finished-at="2026-07-13T16:49:52 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addUser()[pri:1, instance:com.tests.UserAPITest@7b98f307]" started-at="2026-07-13T16:49:52 IST" name="addUser" finished-at="2026-07-13T16:49:58 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="getUserProfile()[pri:2, instance:com.tests.UserAPITest@7b98f307]" started-at="2026-07-13T16:49:58 IST" name="getUserProfile" finished-at="2026-07-13T16:49:59 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfile -->
+        <test-method signature="updateUser()[pri:3, instance:com.tests.UserAPITest@7b98f307]" started-at="2026-07-13T16:49:59 IST" name="updateUser" finished-at="2026-07-13T16:50:01 IST" depends-on-methods="com.tests.UserAPITest.addUser" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="loginUser()[pri:4, instance:com.tests.UserAPITest@7b98f307]" started-at="2026-07-13T16:50:01 IST" name="loginUser" finished-at="2026-07-13T16:50:03 IST" depends-on-methods="com.tests.UserAPITest.updateUser" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+      </class> <!-- com.tests.UserAPITest -->
+    </test> <!-- User API -->
+    <test started-at="2026-07-13T16:50:04 IST" name="Contact API" finished-at="2026-07-13T16:50:19 IST" duration-ms="14501">
+      <class name="com.tests.ContactAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:04 IST" name="setup" finished-at="2026-07-13T16:50:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupAuthentication()[pri:0, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:04 IST" name="setupAuthentication" finished-at="2026-07-13T16:50:08 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAuthentication -->
+        <test-method signature="addContact()[pri:5, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:08 IST" name="addContact" finished-at="2026-07-13T16:50:10 IST" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method signature="getContactList()[pri:6, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:10 IST" name="getContactList" finished-at="2026-07-13T16:50:12 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactList -->
+        <test-method signature="getContact()[pri:7, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:12 IST" name="getContact" finished-at="2026-07-13T16:50:13 IST" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+        <test-method signature="updateContact()[pri:8, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:13 IST" name="updateContact" finished-at="2026-07-13T16:50:15 IST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContact -->
+        <test-method signature="updateContactPatch()[pri:9, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:15 IST" name="updateContactPatch" finished-at="2026-07-13T16:50:17 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContactPatch -->
+        <test-method signature="logoutUser()[pri:10, instance:com.tests.ContactAPITest@38af9828]" started-at="2026-07-13T16:50:17 IST" name="logoutUser" finished-at="2026-07-13T16:50:19 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- com.tests.ContactAPITest -->
+    </test> <!-- Contact API -->
+  </suite> <!-- API-Telecom-Domain Suite -->
+</testng-results>

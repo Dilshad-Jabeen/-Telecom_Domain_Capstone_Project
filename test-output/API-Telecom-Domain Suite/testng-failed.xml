@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API-Telecom-Domain Suite]">
+  <test thread-count="5" name="Contact API(failed)">
+    <classes>
+      <class name="com.tests.ContactAPITest">
+        <methods>
+          <include name="setup"/>
+          <include name="addContact"/>
+          <include name="setupAuthentication"/>
+        </methods>
+      </class> <!-- com.tests.ContactAPITest -->
+    </classes>
+  </test> <!-- Contact API(failed) -->
+</suite> <!-- Failed suite [API-Telecom-Domain Suite] -->

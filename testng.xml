@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="API-Telecom-Domain Suite">
+
+    <test name="User API">
+        <classes>
+            <class name="com.tests.UserAPITest"/>
+        </classes>
+    </test>
+
+    <test name="Contact API">
+        <classes>
+            <class name="com.tests.ContactAPITest"/>
+        </classes>
+    </test>
+
+</suite>
